@@ -28,7 +28,7 @@ function render(variables = {}) {
   let name = variables.name ? variables.name : "Name";
   let lastName = variables.lastName ? variables.lastName : "Last Name";
   let role = variables.role ? variables.role : "Rol";
-  let city = variables.city ? variables.city : "City, ";
+  let city = variables.city ? variables.city : "City";
   let country = variables.country ? variables.country : "Country";
   let twitter = variables.twitter
     ? variables.twitter
